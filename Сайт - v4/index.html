@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Azarova Zimfira — косметологический кабинет в Нижневартовске. Лазерная эпиляция, аппаратный массаж сферами, EMS-скульптор. Клиника Doctor Shmidt.">
+  <meta name="keywords" content="лазерная эпиляция, Нижневартовск, Azarova Zimfira, аппаратный массаж, EMS-скульптор, Doctor Shmidt">
+  <title>Azarova Zimfira — Лазерная эпиляция и аппаратный массаж | Нижневартовск</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к содержимому</a>
+
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Azarova Zimfira — на главную">
+        <img src="images/logo.svg" alt="Azarova Zimfira" class="logo-img" width="180" height="42">
+      </a>
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Переключить тему" title="Переключить тему">
+          <svg class="theme-icon-light" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav class="nav" id="nav-menu" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#pricing">Прайс</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+          <li><a href="#booking" class="nav-cta">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav-overlay" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Главный экран">
+      <canvas class="hero-particles" id="hero-particles" aria-hidden="true"></canvas>
+      <div class="hero-media" data-parallax="0.3">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <h1 class="hero-title reveal reveal-up" data-delay="0">Azarova Zimfira</h1>
+        <p class="hero-subtitle reveal reveal-up" data-delay="1">Лазерная эпиляция &bull; Эстетика &bull; Забота о себе</p>
+        <div class="hero-actions reveal reveal-up" data-delay="2">
+          <a href="#booking" class="btn"><span>Записаться</span></a>
+          <a href="#pricing" class="btn"><span>Посмотреть прайс</span></a>
+        </div>
+        <ul class="hero-features reveal reveal-up" data-delay="3">
+          <li>Современное оборудование</li>
+          <li>Комфортная атмосфера</li>
+          <li>Индивидуальный подход</li>
+        </ul>
+      </div>
+      <svg class="hero-illustration draw-illustration" viewBox="0 0 120 200" aria-hidden="true">
+        <path d="M60 20 C45 35, 40 55, 42 75 C44 95, 50 110, 55 130 C58 145, 55 160, 50 175 C48 182, 52 190, 60 195 C68 190, 72 182, 70 175 C65 160, 62 145, 65 130 C70 110, 76 95, 78 75 C80 55, 75 35, 60 20" fill="none" stroke="currentColor" stroke-width="0.8"/>
+        <path d="M60 30 C55 45, 52 60, 54 72" fill="none" stroke="currentColor" stroke-width="0.5"/>
+        <path d="M35 80 C30 90, 28 100, 30 110" fill="none" stroke="currentColor" stroke-width="0.5"/>
+        <path d="M85 80 C90 90, 92 100, 90 110" fill="none" stroke="currentColor" stroke-width="0.5"/>
+      </svg>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-content">
+        <div class="about-text reveal reveal-up">
+          <p class="section-label">О нас</p>
+          <h2 class="section-title" id="about-title">Пространство заботы и&nbsp;эстетики</h2>
+          <p class="section-text section-text--center">
+            Мы создаём пространство, где каждая процедура проходит максимально комфортно.
+            Современное оборудование, стерильность, индивидуальный подход и внимание к деталям
+            позволяют добиться отличного результата без лишнего стресса.
+          </p>
+          <ul class="about-cards">
+            <li class="about-card reveal reveal-up" data-delay="0">
+              <span class="about-card-icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Безопасность</h3>
+                <p>Стерильные условия и сертифицированное оборудование</p>
+              </div>
+            </li>
+            <li class="about-card reveal reveal-up" data-delay="1">
+              <span class="about-card-icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Современное оборудование</h3>
+                <p>Диодный лазер последнего поколения</p>
+              </div>
+            </li>
+            <li class="about-card reveal reveal-up" data-delay="2">
+              <span class="about-card-icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Комфортная атмосфера</h3>
+                <p>Внимательный персонал и спокойная обстановка</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Услуги</p>
+          <h2 class="section-title" id="services-title">Наши услуги</h2>
+        </header>
+        <div class="services-grid">
+          <article class="service-card reveal reveal-up" data-delay="0">
+            <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <path d="M24 10 L24 38 M14 24 L34 24" fill="none" stroke="currentColor" stroke-width="0.6"/>
+              <circle cx="24" cy="24" r="4" fill="none" stroke="currentColor" stroke-width="0.6"/>
+            </svg>
+            <h3>Лазерная эпиляция</h3>
+            <p>Безболезненное удаление нежелательных волос с помощью диодного лазера. Подходит для всех зон тела.</p>
+            <a href="#pricing" class="service-link">Смотреть цены</a>
+          </article>
+          <article class="service-card reveal reveal-up" data-delay="1">
+            <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="16" cy="28" r="5" fill="none" stroke="currentColor" stroke-width="0.6"/>
+              <circle cx="28" cy="22" r="5" fill="none" stroke="currentColor" stroke-width="0.6"/>
+              <circle cx="36" cy="32" r="5" fill="none" stroke="currentColor" stroke-width="0.6"/>
+            </svg>
+            <h3>Аппаратный массаж сферами</h3>
+            <p>Массаж с использованием сфер для моделирования силуэта, улучшения тонуса кожи и расслабления.</p>
+            <a href="#pricing" class="service-link">Смотреть цены</a>
+          </article>
+          <article class="service-card reveal reveal-up" data-delay="2">
+            <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 8 L32 20 L24 32 L16 20 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <path d="M24 32 L24 40" fill="none" stroke="currentColor" stroke-width="0.6"/>
+            </svg>
+            <h3>EMS-скульптор <span class="badge-new">Новинка</span></h3>
+            <p>Аппаратная процедура для проработки любой зоны — коррекция фигуры и укрепление мышц.</p>
+            <a href="#pricing" class="service-link">Смотреть цены</a>
+          </article>
+          <article class="service-card reveal reveal-up" data-delay="3">
+            <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 8 C16 8, 10 14, 10 22 C10 30, 16 36, 24 40 C32 36, 38 30, 38 22 C38 14, 32 8, 24 8" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <path d="M18 22 C20 26, 24 28, 28 26" fill="none" stroke="currentColor" stroke-width="0.6"/>
+            </svg>
+            <h3>Консультация</h3>
+            <p>Первичная консультация: подбор программы процедур с учётом ваших особенностей.</p>
+            <a href="#booking" class="service-link">Записаться</a>
+          </article>
+        </div>
+      </div>
+      <svg class="section-illustration section-illustration--branch draw-illustration" viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M50 110 C50 80, 45 60, 50 40 C52 30, 48 20, 50 10" fill="none" stroke="currentColor" stroke-width="0.6"/>
+        <path d="M50 50 C35 45, 25 40, 20 30" fill="none" stroke="currentColor" stroke-width="0.5"/>
+        <path d="M50 50 C65 45, 75 40, 80 30" fill="none" stroke="currentColor" stroke-width="0.5"/>
+      </svg>
+    </section>
+
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Прайс</p>
+          <h2 class="section-title" id="pricing-title">Стоимость услуг</h2>
+        </header>
+        <div class="pricing-accordion reveal reveal-up" role="region" aria-label="Прайс-лист">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="true" aria-controls="price-face">
+              <span>Лицо</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel is-open" id="price-face" role="region">
+              <ul class="price-list">
+                <li class="price-item"><span class="price-name">Ареолы</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">500 ₽</span></li>
+                <li class="price-item"><span class="price-name">Бакенбарды</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">500 ₽</span></li>
+                <li class="price-item"><span class="price-name">Верхняя губа</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">300 ₽</span></li>
+                <li class="price-item"><span class="price-name">Затылок</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">500 ₽</span></li>
+                <li class="price-item"><span class="price-name">Лицо полностью</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 400 ₽</span></li>
+                <li class="price-item"><span class="price-name">Подбородок</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">400 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="price-arms">
+              <span>Руки</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="price-arms" role="region">
+              <ul class="price-list">
+                <li class="price-item"><span class="price-name">Руки до/выше локтя</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 000 ₽</span></li>
+                <li class="price-item"><span class="price-name">Руки полностью</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 600 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="price-body">
+              <span>Тело</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="price-body" role="region">
+              <ul class="price-list">
+                <li class="price-item"><span class="price-name">Бикини классика</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">1 100 ₽</span></li>
+                <li class="price-item"><span class="price-name">Бикини глубокое</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 600 ₽</span></li>
+                <li class="price-item"><span class="price-name">Голени</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">45 мин</span><span class="price-value">1 500 ₽</span></li>
+                <li class="price-item"><span class="price-name">Живот полностью</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">800 ₽</span></li>
+                <li class="price-item"><span class="price-name">Живот дорожка</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">10 мин</span><span class="price-value">300 ₽</span></li>
+                <li class="price-item"><span class="price-name">Ноги бёдра</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 800 ₽</span></li>
+                <li class="price-item"><span class="price-name">Ноги полностью</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">3 000 ₽</span></li>
+                <li class="price-item"><span class="price-name">Подмышки</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">800 ₽</span></li>
+                <li class="price-item"><span class="price-name">Поясница</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">800 ₽</span></li>
+                <li class="price-item"><span class="price-name">Спина (до поясницы)</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">1 200 ₽</span></li>
+                <li class="price-item"><span class="price-name">Спина (с поясницей)</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч 20 мин</span><span class="price-value">1 600 ₽</span></li>
+                <li class="price-item"><span class="price-name">Ягодицы</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">40 мин</span><span class="price-value">1 000 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="price-massage">
+              <span>Аппаратный массаж сферами</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="price-massage" role="region">
+              <ul class="price-list">
+                <li class="price-item"><span class="price-name">Аппаратный массаж сферами (без лица)</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч</span><span class="price-value">3 500 ₽</span></li>
+                <li class="price-item"><span class="price-name">Аппаратный массаж сферами (одна зона: низ/верх)</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">2 000 ₽</span></li>
+                <li class="price-item"><span class="price-name">Массаж лица, декольте</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">1 000 ₽</span></li>
+                <li class="price-item"><span class="price-name">Аппаратный массаж сферами (60 мин, знакомство с мастером)</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">1 ч 30 мин</span><span class="price-value">от 3 800 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="price-ems">
+              <span>EMS-скульптор <span class="badge-new">Новинка</span></span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="price-ems" role="region">
+              <ul class="price-list">
+                <li class="price-item"><span class="price-name">EMSCULPT</span><span class="price-dots" aria-hidden="true"></span><span class="price-time">30 мин</span><span class="price-value">1 000 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="price-packages">
+              <span>Пакеты</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="price-packages" role="region">
+              <ul class="price-list price-list--packages">
+                <li class="price-item price-item--package">
+                  <div class="package-info">
+                    <span class="package-label">Пакет 1</span>
+                    <span class="price-name">Глубокое бикини + подмышки</span>
+                  </div>
+                  <span class="price-dots" aria-hidden="true"></span>
+                  <span class="price-time">1 ч 30 мин</span>
+                  <span class="price-value">2 300 ₽</span>
+                </li>
+                <li class="price-item price-item--package">
+                  <div class="package-info">
+                    <span class="package-label">Пакет 2</span>
+                    <span class="price-name">Глубокое бикини + подмышки + голени</span>
+                  </div>
+                  <span class="price-dots" aria-hidden="true"></span>
+                  <span class="price-time">1 ч 40 мин</span>
+                  <span class="price-value">3 500 ₽</span>
+                </li>
+                <li class="price-item price-item--package">
+                  <div class="package-info">
+                    <span class="package-label">Пакет 3</span>
+                    <span class="price-name">Комплекс: живот + ягодицы</span>
+                  </div>
+                  <span class="price-dots" aria-hidden="true"></span>
+                  <span class="price-time">1 ч</span>
+                  <span class="price-value">1 800 ₽</span>
+                </li>
+                <li class="price-item price-item--package">
+                  <div class="package-info">
+                    <span class="package-label">Пакет 4</span>
+                    <span class="price-name">Все тело без ограничений (тело + ноги полностью + руки полностью + лицо)</span>
+                  </div>
+                  <span class="price-dots" aria-hidden="true"></span>
+                  <span class="price-time">3 ч</span>
+                  <span class="price-value">8 990 ₽</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Преимущества</p>
+          <h2 class="section-title" id="why-title">Почему выбирают нас</h2>
+        </header>
+        <div class="why-grid">
+          <article class="why-card reveal reveal-up" data-delay="0">
+            <h3>Современный лазер</h3>
+            <p>Диодный лазер с охлаждающей насадкой — минимум дискомфорта, максимум эффективности.</p>
+          </article>
+          <article class="why-card reveal reveal-up" data-delay="1">
+            <h3>Стерильность</h3>
+            <p>Одноразовые расходные материалы и дезинфекция после каждого клиента.</p>
+          </article>
+          <article class="why-card reveal reveal-up" data-delay="2">
+            <h3>Индивидуальный подход</h3>
+            <p>Подбираем параметры процедуры с учётом типа кожи и волос.</p>
+          </article>
+          <article class="why-card reveal reveal-up" data-delay="3">
+            <h3>Комфортные процедуры</h3>
+            <p>Спокойная атмосфера и внимание к вашему комфорту на каждом сеансе.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Отзывы</p>
+          <h2 class="section-title" id="reviews-title">Что говорят клиенты</h2>
+          <a href="https://dikidi.ru/ru/profile/1710689/reviews" target="_blank" rel="noopener noreferrer" class="btn reviews-cta-btn"><span>Оставить отзыв</span></a>
+        </header>
+        <div class="reviews-slider reveal reveal-up" aria-roledescription="carousel" aria-label="Отзывы клиентов">
+          <div class="reviews-track" id="reviews-track">
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Танзиля Яппарова</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Хочу выразить огромную благодарность за потрясающую процедуру EMS! Результат превзошёл все мои ожидания. Сразу после первого сеанса я почувствовала подтянутость кожи и мышц. Через несколько процедур эффект стал ещё более заметен, фигура стала стройнее, кожа подтянулась, и я ощущаю себя намного увереннее. Настоящий профессионал своего дела!</p>
+              <span class="review-service">Аппаратный массаж сферами (Без лица)</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Яна Рощупкина</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Сегодня побывала на процедуре EMS sculpt. Атмосфера очень доброжелательная и комфортная. В кабинете все стерильно, расходные материалы все одноразовые. Специалист грамотный, вежливый и внимательный. В ходе своей работы всегда интересовалась, комфортно ли я себя чувствую. Процедурой была приятно удивлена, эффект подтянутости сразу после первой процедуры. Всем советую именно этого специалиста.</p>
+              <span class="review-service">EMSCULPT</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Луиза Ахмедова</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Самый лучший массаж 😻 Хочу так же</p>
+              <span class="review-service">Аппаратный массаж сферами (Без лица)</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Анонимный отзыв</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Чисто, аккуратно. Уютно. Делаю первый раз, совсем не больно! Через дней 10 волосы начали отпадать 😇 Пройду курсом. Спасибо мастеру</p>
+              <span class="review-service">Поясница</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Анастасия Терзи</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Это лучший результат!!!</p>
+              <span class="review-service">Комплекс: живот + ягодицы</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Татьяна Рубцова</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Все было супер 👍</p>
+              <span class="review-service">Комплекс: живот + ягодицы</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Анонимный отзыв</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Процедура безболезненная, эффект увидела сразу. Рекомендую.</p>
+              <span class="review-service">EMSCULPT</span>
+            </article>
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="review-name">Анонимный отзыв</h3>
+                <div class="review-stars" aria-label="5 из 5 звёзд">★★★★★</div>
+              </div>
+              <p class="review-text">Процедурой осталась довольна, хорошо проработались мышцы, тело сразу пришло в тонус, кожа гладкая стала бархатистая. Специалист просто супер!!! Приду еще.</p>
+              <span class="review-service">Аппаратный массаж сферами (Без лица)</span>
+            </article>
+          </div>
+          <div class="reviews-dots" id="reviews-dots" role="tablist" aria-label="Выбор отзыва"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Вопросы</p>
+          <h2 class="section-title" id="faq-title">Частые вопросы</h2>
+        </header>
+        <div class="faq-accordion reveal reveal-up" role="region" aria-label="Частые вопросы">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-1">
+              <span>Больно ли делать лазерную эпиляцию?</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="faq-1" role="region">
+              <p>Современный диодный лазер с системой охлаждения делает процедуру практически безболезненной. Ощущения сравнимы с лёгким покалыванием. Чувствительность индивидуальна — мастер всегда подберёт комфортные параметры.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-2">
+              <span>Сколько процедур потребуется?</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="faq-2" role="region">
+              <p>В среднем для стойкого результата необходимо 6–8 сеансов с интервалом 4–6 недель. Точное количество зависит от зоны, типа волос и индивидуальных особенностей организма.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-3">
+              <span>Как подготовиться к процедуре?</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="faq-3" role="region">
+              <p>За 2–3 недели до сеанса не удаляйте волосы с корнем (воск, шугаринг). За сутки — сбрейте зону бритвой. Не загорайте за 2 недели до и после процедуры. В день сеанса не используйте дезодорант на обрабатываемой зоне.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-4">
+              <span>Есть ли противопоказания?</span>
+              <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+            <div class="accordion-panel" id="faq-4" role="region">
+              <p>Основные противопоказания: беременность, онкология, сахарный диабет в стадии декомпенсации, острые воспаления кожи, приём фотосенсибилизирующих препаратов. На консультации мастер уточнит все нюансы.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-header reveal reveal-up">
+          <p class="section-label">Контакты</p>
+          <h2 class="section-title" id="contact-title">Как нас найти</h2>
+        </header>
+        <div class="contact-grid reveal reveal-up">
+          <div class="contact-info">
+            <address class="contact-address">
+              <p class="contact-item">
+                <span class="contact-label">Адрес</span>
+                г. Нижневартовск, 9а микрорайон, 1&nbsp;этаж,<br>
+                ул. Мусы Джалиля, 18,<br>
+                клиника Doctor Shmidt
+              </p>
+              <p class="contact-item">
+                <span class="contact-label">Телефон</span>
+                <a href="tel:508000" class="contact-phone">508-000</a>
+              </p>
+              <p class="contact-item">
+                <span class="contact-label">Время работы</span>
+                Ежедневно, 8:00 — 22:00
+              </p>
+            </address>
+            <a href="https://yandex.ru/maps/?rtext=~&amp;rtt=auto&amp;text=%D0%9D%D0%B8%D0%B6%D0%BD%D0%B5%D0%B2%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D1%81%D0%BA%2C+%D1%83%D0%BB.+%D0%9C%D1%83%D1%81%D1%8B+%D0%94%D0%B6%D0%B0%D0%BB%D0%B8%D0%BB%D1%8F%2C+18%2C+%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0+Doctor+Shmidt" class="btn" target="_blank" rel="noopener noreferrer"><span>Построить маршрут</span></a>
+          </div>
+          <div class="contact-map">
+            <iframe
+              title="Карта — клиника Doctor Shmidt, Нижневартовск"
+              src="https://yandex.ru/map-widget/v1/?text=%D0%9D%D0%B8%D0%B6%D0%BD%D0%B5%D0%B2%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D1%81%D0%BA%2C+%D1%83%D0%BB.+%D0%9C%D1%83%D1%81%D1%8B+%D0%94%D0%B6%D0%B0%D0%BB%D0%B8%D0%BB%D1%8F%2C+18%2C+%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0+Doctor+Shmidt&amp;z=19"
+              width="100%"
+              height="100%"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container container--narrow">
+        <div class="booking-cta reveal reveal-up">
+          <a href="http://dikidi.ru/ru/profile/zimfira_1710689" target="_blank" rel="noopener noreferrer" class="btn btn--large"><span>Записаться</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo logo--footer" aria-label="Azarova Zimfira">
+          <img src="images/logo.svg" alt="Azarova Zimfira" class="logo-img" width="160" height="38">
+        </a>
+        <p class="footer-tagline">Лазерная эпиляция и аппаратный массаж</p>
+      </div>
+      <div class="footer-contacts">
+        <a href="tel:508000">508-000</a>
+      </div>
+      <p class="footer-legal">
+        <a href="#">Политика конфиденциальности</a>
+        <span>&copy; 2026 Azarova Zimfira</span>
+      </p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Наверх" title="Наверх">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
